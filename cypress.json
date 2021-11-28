@@ -1,0 +1,17 @@
+{
+    "watchForFileChanges": true,
+    "env":{
+        "app":"staging"
+    },
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+}

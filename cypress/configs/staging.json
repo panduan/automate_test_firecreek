@@ -1,0 +1,7 @@
+{
+    "env": {
+      "domain": "staging.arthuronline.co.uk/login?X-MODE=QA-eW91LXdpbi1ub3RoaW5nCg",
+      "description": "staging",
+      "protocol": "https://"
+     }
+}
